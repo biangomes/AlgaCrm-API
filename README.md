@@ -1,4 +1,4 @@
-Welcome to the AlgaCrm-API!
+### Welcome to the AlgaCrm-API!
 
 AlgaCrm-API is a simple API used to study and practice spring boot framework. It has a simple create and read operation and uses H2 as database, which is a database in-memory. It is helpful to test your REST operations, but be careful because datas can't be persisted.
 
