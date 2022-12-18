@@ -1,13 +1,19 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Title",
-    "description": "Title",
+    "title": "AlgaCrm",
+    "description": "Simple API which allows you query for a client and insert a new client",
     "version": "1.0.0"
   },
   "servers": [
     {
-      "url": "https"
+      "url": "http://localhost:{port}/clientes",
+      "description": "Development server",
+      "variables": {
+        "port": {
+          "default": "8080"
+        }
+      }
     }
   ],
   "paths": {
